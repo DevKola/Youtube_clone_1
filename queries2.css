@@ -1,0 +1,326 @@
+/* 1, 632 px */
+@media only screen and (max-width: 102em) {
+  .container {
+    grid-template-columns: 70% 25%;
+  }
+
+  .others-container {
+    margin: 2rem 0rem 2rem 0;
+  }
+
+  .vid-info-content {
+    margin: 2rem 2rem 2rem 4rem;
+  }
+}
+
+/* 1, 376 */
+@media only screen and (max-width: 86em) {
+  .header-container {
+    height: 10vh;
+  }
+
+  .logo-img {
+    width: 70%;
+  }
+
+  .create {
+    width: 15%;
+  }
+
+  .content {
+    width: 100%;
+    position: absolute;
+    top: 8.2%;
+    background-color: #fff;
+  }
+
+  .container {
+    grid-template-columns: 70% 30%;
+  }
+
+  .vid-info-content {
+    margin: 2rem 2rem 2rem 4rem;
+  }
+
+  .others-container {
+    margin: 2rem 2rem 2rem 0;
+  }
+
+  .vid-features {
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .like-dislike i {
+    font-size: 1.5rem;
+    margin: 0 1rem 0 2rem;
+    color: #3a3a3a;
+  }
+
+  .devide-line {
+    right: 4rem;
+  }
+
+  .share {
+    padding: 1rem 1rem 1rem 0rem;
+  }
+
+  .share i {
+    font-size: 1.5rem;
+    margin: 0 1rem 0 1rem;
+  }
+
+  .share span {
+    font-size: 1.2rem;
+  }
+
+  .clip {
+    padding: 1rem 1rem 1rem 0rem;
+  }
+
+  .clip i {
+    font-size: 1.5rem;
+    margin: 0 1rem 0 1rem;
+  }
+
+  .clip span {
+    font-size: 1.2rem;
+  }
+
+  .save {
+    padding: 1rem 1rem 1rem 0rem;
+  }
+
+  .save span {
+    font-size: 1.2rem;
+  }
+
+  .save i {
+    font-size: 1.5rem;
+    margin: 0 1rem 0 1rem;
+  }
+
+  .other-title {
+    font-size: 1.2rem;
+  }
+}
+
+/* 1,232 */
+@media only screen and (max-width: 77em) {
+  .nav-link {
+    font-size: 1.2rem;
+  }
+
+  .overlay-logo .logo-img {
+    width: 40%;
+  }
+
+  .vid-features {
+    width: 45rem;
+  }
+
+  .vid-title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    margin: 1rem 0 1rem 0.2rem;
+  }
+
+  .other-vid {
+    width: 17rem;
+  }
+}
+
+/* 1,024 px*/
+@media only screen and (max-width: 64em) {
+  .header-container {
+    height: 7vh;
+  }
+
+  .logo-img {
+    width: 100%;
+  }
+
+  .search {
+    width: 50%;
+    height: 70%;
+  }
+
+  .content {
+    width: 100%;
+    position: absolute;
+    top: 7%;
+    background-color: #fff;
+  }
+
+  .container {
+    grid-template-columns: 65% 35%;
+  }
+
+  .other-vid {
+    width: 15rem;
+    margin-right: 1.5rem;
+  }
+
+  .acct-vid-feature {
+    flex-wrap: wrap;
+  }
+
+  .acct {
+    margin-bottom: 2rem;
+  }
+
+  .acct img {
+    width: 4rem;
+  }
+
+  .name p {
+    font-size: 1.3rem;
+  }
+
+  .name span {
+    font-size: 1.1rem;
+  }
+
+  .subscribe {
+    font-size: 1.2rem;
+  }
+
+  .vid-features {
+    width: 50rem;
+  }
+
+  .views-days,
+  .details-title,
+  .details-info {
+    font-size: 1.3rem;
+  }
+
+  .cancel,
+  .comment {
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .comment-details {
+    font-size: 1.2rem;
+  }
+}
+
+/* 832 px */
+@media only screen and (max-width: 52em) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .hide-two {
+    display: none;
+  }
+
+  .show-more-vids {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 1px solid #dfdfdf;
+    padding: 1rem;
+    border-radius: 10rem;
+    cursor: pointer;
+  }
+
+  .account-img img {
+    width: 4rem;
+  }
+
+  .create {
+    width: 15%;
+    padding-right: 1rem;
+  }
+}
+
+/* 544 px */
+@media only screen and (max-width: 34em) {
+  html {
+    font-size: 50%;
+  }
+
+  .search {
+    margin-left: 8rem;
+  }
+
+  .search input {
+    font-size: 1.2rem;
+    color: #444;
+    width: 20rem;
+    height: 3rem;
+  }
+
+  .search-btn {
+    width: 5rem;
+    height: 3rem;
+  }
+
+  .search-btn-img {
+    width: 2rem;
+  }
+
+  .create {
+    width: 20%;
+  }
+
+  .account-img img {
+    width: 3rem;
+  }
+
+  .overlay-logo .logo-img {
+    width: 30%;
+  }
+
+  .logo-img {
+    width: 120%;
+  }
+}
+
+/* 416 px */
+@media only screen and (max-width: 26em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .header-container {
+    height: 5vh;
+    margin: 0 ;
+  }
+
+  .navigations {
+    margin-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  .create {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 24em) {
+  .vid-info {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .vid-info-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .header-container {
+    margin: 0;
+  }
+
+  .navigations {
+    margin-top: 1rem;
+    padding-left: 1rem;
+  }
+}
